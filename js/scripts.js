@@ -1,13 +1,14 @@
 $(document).ready(function() {
 
-  $("form#contact").submit(function(event) {
+  $("form#grocery").submit(function(event) {
     event.preventDefault();
-
+    debugger;
     var list = [];
+    var product = $("input#produce").val();
 
-    console.log(#produce).val();
+    console.log(product);
 
-    list.push($(#produce).val());
+    list.push($("input#produce").val());
 
-  };
-};
+  });
+});
